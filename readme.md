@@ -1,7 +1,25 @@
 MeshCommander
 =============
 
+![GitHub License](https://img.shields.io/github/license/kreier/MeshCommander)
+![GitHub Release](https://img.shields.io/github/v/release/kreier/MeshCommander)
+
 *** Intel has discontinued support for this tool. Please contact Intel support for alternatives ***
+
+Current options:
+
+- Download version 0.9.7 from here or the internet archive [https://archive.org/details/mesh-commander](https://archive.org/details/mesh-commander) 0.9.6
+- Install it with node.js and run with TypeScript. See three steps below:
+
+```sh
+mkdir meshcommander && cd meshcommander
+npm install meshcommander
+node node_modules/meshcommander
+```
+
+Then open your webbrowser at `http://127.0.0.1:3000`.
+
+This is the original README.md text below:
 
 MeshCommander is a Intel(R) Active Management Technology (Intel(R) AMT) remote management tool. It's feature rich and includes a built-in remote desktop viewer for Hardware-KVM, a Serial-over-LAN terminal, IDER-Redirection support and much more. MeshCommander is built on web technologies and runs on many plaforms. In addition to being available as a stand-alone tool, MeshCommander was built to be very space efficient to that it can be uploaded into Intel AMT flash space to have it served directly from the Intel AMT web server. There are different ways to install and use MeshCommander.
 
